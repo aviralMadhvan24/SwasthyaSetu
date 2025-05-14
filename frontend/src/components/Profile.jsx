@@ -2,7 +2,7 @@ import React from 'react';
 import { useAuth } from './AuthContext';
 
 export default function Profile() {
-  const { user } = useAuth();
+  const { user } = useAuth() ;
 
   return (
     <div className="max-w-md mx-auto bg-gray-800 p-8 rounded-2xl shadow-2xl">
